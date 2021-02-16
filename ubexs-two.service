@@ -1,0 +1,33 @@
+# sudo rm /etc/systemd/system/ubexs-two.service & sudo nano /etc/systemd/system/ubexs-two.service
+# sudo systemctl enable ubexs-two.service & sudo systemctl start ubexs-two.service
+# sudo systemctl status ubexs-two.service
+# to view logs:
+# sudo journalctl -u ubexs-two.service
+[Unit]
+Description=ubexs Web/API Daemon 2
+# After=mysql.service redis.service
+
+[Service]
+ExecStart=/usr/bin/npm run start
+# Required on some systems
+WorkingDirectory=/home/ubx/sites/ubexs/www/
+Restart=always
+# Restart service after 0 seconds if service crashes
+RestartSec=0
+RemainAfterExit=yes
+# Output to custom log files
+# StandardOutput=file:/home/ubx/sites/ubexs/www/out.log
+# StandardError=file:/home/ubx/sites/ubexs/www/err.log
+SyslogIdentifier=ubexs-two
+# obviously we dont wanna be running this on root
+User=ubx
+#Group=<alternate group>
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!! CONFIG SETUP REQUIRED !!!
+# MAKE SURE TO SET SECRET_ENCRYPTION_KEY AND SECRET_ENCRYPTION_IV ENVIRONMENTAL VARIABLES
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Environment=NODE_ENV=production PORT=4001 WS_PORT=4101
+
+[Install]
+WantedBy=multi-user.target
