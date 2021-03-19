@@ -1,10 +1,10 @@
 {
     // ALl MySQL DB data
     "mysql": {
-        "host": "127.0.0.1",
-        "user": "username",
-        "password": "password",
-        "database": "database_name",
+        "host": "35.203.112.35",
+        "user": "playubx",
+        "password": "5M5&F3p6eRuV^E_UvuJfW8_PmqmaLLKF62H+*98ucbw$Nsp%s@VE*F=@53*v6j+PWPdQZA%&SXdaS+Q_f!Sx7#&eV4W#jSraXe!qzwWe2u_z4Gfpb?znEEGV#6@sVgwdZjYzzgRgeLxB_AeGUX8?Nf$HAr89H!EYHD^ZGBVq!hZan38zDCcP+D$6=Xv75-xZp7u%7r82hsH-WEhZk@UZa=L^jsKY!58%-E2QvfakRzwUZ79Bw58uZkqyBtH!bb5+AGHHLVUNMzfFQZbSj4ssLvVJyP%dmf!k_nMCYn59RRqdaZz%?L!CL4RT5#Pb&BT#&AtFZ#ZFtYxQ&E&Pb&VCgcGEhDZCQmJx9zkSh&x#+XzeCup6!mavZb4SJ4ThUs7suCLq+!dtB^zaMXJzMc&Yqdx_A#LUamV__Gs9jAT&nPvL4a#WPHkqxcg+G5%Hvk*qX#G_BpKQv=D!sFR=R$Wcj&reygvptcdYJu?D5CL=aXnJzny_SEuKbcMne_WC&SQ7Cx*ZyhXjMbesyh^*8*MNtnjuZgN$DnHC+gHk?-S+xEF?c?VKkymzxvvFxE3VwB=A9#H!_BKYDT3MA?SMEZYXBQYNQD@V@?=+UDXhJyx6TteefrG7c!8dTeJm@K8sgF_dzj+c6GSvARN-Wpz3YP5cDhHqyvfXq2%Vw%=DMS^fG3&KzVzj_?^Aczte?$M7u&S9ajtGyTZ^fhPba5vmnjBp?b=zd9kTR-PnHuWY6f=Zn?bT&ydRRre%2kQkYR?aJD$5Q2nvbuddhpa9+tN#f=W?@AC^sf8d3+cf=?^!2Mp7HT&asA3t_4PHr-PUTjENV%8C=3j__eX^rCPTf+e8M3rFm-8m$hP+8bsrD@5!yaFMev*rXxFwg2yD8amuGg_sE7fhB@Lfcms@jDjTA@-NMG*p*_fdns-YdG@@weRFt9sL5HPUhDnuTf6XTNQafNWhT@8vr9=!XA!8_mssNm&K+W5ae%N=Q%+8ysxSABDAX55rpZxy+4EFV+#a*!Dac-+S^t8WCGjm$66RNprkva@qVTbZN*vx$ux-sXqjj_x26##xkGeSx9BYHv*CYYFR_%?ze2D5ddZw2@qrg5bddhpu&5PkgZq@Y!deS--4-x^^_j&T?N6Yq&wWA@%&esr-F8E4Dt#@f5vNHqc$drrw?8qBgJ4dZZEXtWt_$Z=cp3C8w4YzCx&RyGhnRXWKq-JCY-9hdGs+@+PCHnwuX#-Fuzpfdwd@X7C7KtA$=^GtS*QbTVeEN!WsPPeQsuvQjMs9c+hTd&9h7sshe66Vz_GCdLZn*%k4#7!jqvuv!#3aW&G6Bkv3V=uXez&$y_mdJmbBy8PsSbAnW&8NqtE4XL2TM*HvE3twsC3@Vtmp+^f-97uJJ54Em3K=2nmM2Arcj@c#VwEAZenVxtK^689X#CduDYEC+D7keYV@__$Lg7cr2aL#unYhgN8Sd*Xjy6v8HcFx4!yYQvZ4&W@GYuvRz#eaWjGY#xZnmtPkBU8F_5#7ZqBkJ7uXqDd^8uuf&x4Nejsv27W?CshwVBpn2595JGrPM6N&baMn%2=@@z_kntKkfcLhyWG#=DTfGjj+VZkX#ut98$9m##XCK4rDApKus!L^e#HBvvBvbXg&g75y_3NRPZgbrFcC3mLj8y^$wvzm35r%zYN=%@kZ4GW-K3qQwMqqLeC_FZHFE8*@s6N#7#r&??rgPr3Z@bdM?r*JFnLKp9cwga?7_Rp=SV$5S&Ny8uZ2dgQ&*Qr9*eT8c8LYDWE&eCnQrSpK$XrUGM%6f-ujphca7muReP_tm@Ec8DP3eXnQV#xLR$hmE^$p!R6xuQ=C5#3Ls?+NM5gaNLzf=xcWmQut+3pAq7aAqxew@-MxSEH&H+g@yMmx%cz5Z*Ysu%$Ts_zs!MN6$dug&dcZncC3_!8^eAxbAmPvgfvg5-85Nu8U776x&Z5wThQW7&yG=twWt6CH7Q?Ft@Ru*BgE%g$ns=nFbu3A@&@?GgAWEAejMRX@F=#c@qz$Xr2Gf%jy+uCJ?5GUCF%f3JWU-LYWTweKXsFyk9-y%%78",
+        "database": "playubx",
         "charset": "utf8"
     },
     // The Base URL for various services
@@ -12,16 +12,16 @@
     "baseUrl": {
         // Backend (aka this services') BASE url
         // For example: https://api.ubexs.com
-        "backend": "http://api.ubexs.local:3000",
+        "backend": "http://api.ubexs.com:3000",
         // Frontend (blockshub/web-frontend) API Proxy Base Url
         // For example: https://api.ubexs.com in production, or localhost:3000 in development
-        "frontend": "http://api.ubexs.local:3000",
+        "frontend": "http://api.ubexs.com:3000",
         // Game Client (blockshub/game-client) BASE url
         // For example: https://play.ubexs.com
-        "play": "http://play.ubexs.local:3006",
+        "play": "http://play.ubexs.com:3006",
         // WWW Base Url
         // For example: https://www.ubexs.com
-        "www": "http://www.ubexs.local:3005"
+        "www": "http://www.ubexs.com:3005"
     },
     // If MySQL TLS is enabled
     "mysqlTLS": {
@@ -29,7 +29,7 @@
     },
     // Redis configuration information
     "redis": {
-        "host": "127.0.0.1"
+        "host": "10.78.224.163"
     },
     // Render server configuration
     "render": {
@@ -47,9 +47,9 @@
     // Aws S3 configuration information
     // Note that AWS S3 compatible storage is supported
     "aws": {
-        "endpoint": "https://ewr1.vultrobjects.com",
-        "accessKeyId": "access_key",
-        "secretAccessKey": "secret_key",
+        "endpoint": "https://storage.googleapis.com",
+        "accessKeyId": "GOOGNAE7LTYWJCFRE5TSOLEG",
+        "secretAccessKey": "4IZh++4GSoc/txiDs53GfeR4J/7+0khsfTNsKUrV",
         // The names of your buckets
         "buckets": {
             // Name of the thumbnail bucket
@@ -78,11 +78,11 @@
     // Session configuration
     "session": {
         // The secret to use
-        "secret": "dev_session_one",
+        "secret": "prod_session_one",
         // Is secure flag sent? (aka is the domain https)
-        "secure": false,
+        "secure": true,
         // Domain to use
-        "domain": ".ubexs.local"
+        "domain": ".ubexs.com"
     },
     // Recaptcha V2 private key (legacy)
     // Should be equal to recaptchg.v2.public
@@ -92,22 +92,22 @@
     // Encryption keys
     "encryptionKeys": {
         // Email encryption key
-        "email": "random_string_here",
+        "email": "MAycFVVhpGWAlrQmdfIyufhOQTbzJqQgBkCtvpJqUxKlNzXWTZDZXKzOoOgtGHxEdsbHpqxLeIsgSYlWsrujBjeRhAoPdaWXBrAnqLsGbOLgsrHSvVMfSYgzNBwvwmMetDgcUMBMfFcnwHGepwaaBFKktkNQFWTaXsWjQlxKiSgWuXIzJrfdUUudSPmsBDVNonzWEHVuyPoRbVykhCbVVfFVvwlFYUjaRjVFsUPPwbOyWsoUJEYvcTyJKvYRQYJazNNxYNNpAKPHDmhDfwlVmXUguPLpohDPlylkeKxZzZODdsSyMSJaExTMAmBbcMSKeWbYloBPWLxXXPNqHMtlLObgrOyDZvBUfpPjjFEEIRzMEIMdxWGsWjjXTxTyfIdsvngpuvbaxuemvXTqbUKahFZRdiZVpXMTFOODfJUXCjSYVUJrdxMoNvbugYasfijtDWjWpkZDZlbZfDbgHQfgEZPAtZUZBKFpmomjotAdBhpvMYbTQLRdrDaBwDOvEgHaloFSOzHFCAYCUTWlNuJpzkmoJMRxynHpDOJuzPWjRSjcUKPAXQshnwlxwXLODghWSGLLjwJUdyyLiPvXiQkLlIEgbdjBCUjZJcFFZCHzBZpvFClGiQJKssehKHMZfpFhhpVTtcaTuxvAauXBUFLVfrtDDnmREtbsxMfsZMZHxtdYjMoRpHBHGsJdbjvgqEcABWnMNgLXnThesvrYLjDtJBNdgdJZJekQbXvQzMjCzFRkkkOlxcugmgnUXSjnsKJRPLCyMDPOGDQoMCSvXFyQXNEknazFDSHcQLeJaRevzGKoRmTeuLuEWBDPQffkjoSpkfREaSunSeAfMcvOYzeScACsrDzAQbYhDVoccDeVYRrXlghPtmhXnIyHrvbRjOCqGsdmBmHeRsRjOkPbAOAlZRxywYqxdCUuxOczddsnybkuzETCTDQkvOZFUvLgauiAQgZDwXKRTHtAZfNbHpXFaGgqStHhxvrIiXPpiUeINFJkzBRNduKBLicneVqXuBXSLprIMYUyRlwjHUNxsbfIjULbqJnpUfHfQSWTfEqewJfqOyyeLkzbTSomAtHrgHMIvAYRthNacRPCfVPdbDpXVAUaEvaFpDfHjKKLLYeArYeDVNtzqJgaIrhZXuIscIslwazbqGPaRCDQSmLJqrzfiJNvBTULnHeFgcfvZRggKwEWhuFbiXFWuCDlwOyPBxXPqlfydmIcAdDCSKwcGPPzAjUDQoKdVwzUUtMbaBKwaHVRpimtzCarvgkGGCcIRoTstrMFPDltPREPJQrcUuPuAJCpIDEYkyPLaQwvnhTMLxJHMRsBBhVUkYnXmoOFhaxqoFMWPaGGTfRwEegqLfbJEziJBzDcuOSYhFsvMgaadgDsNVCIPQzyiIWWuHyFNSlGrimotTkacQADkGndqCVFRLHUcaWdGEQVEXEXezHtbfPKszUaOLKbWUvuULlskHfQtuNQZtnQMKsxsJvbCTFNcPjvLZBoMZTsHYDGFNpGEfJxbPYbrUfkGPkXbZWxZaZWlMBHqnPuDKeopgSgiceJPExAVoPgnAiIKFHkQNfHpdLldGnzknSoMqNwfJcnbAFdoIRlkyjddvHjTRSNyenkUhoZKniZjqEAIcEAqmjPSqEQFEGGaxUKLDRfHgMTDMXHsofjIgamwdEiySiYbkoIvgBzTggTSfXLdqHZQtslawUuMPDInIJowkcHrNDzabEJMtHlqPGMGLONpFcuYwUHYPQKIptHDefQpmOYpdUBNfqdTeoNviwiuaTALEpGKGilEFvZkZcAaECYgXOLZOzhdmOGWOtmYZnDgHKzZATaXehHBqRDHSTSNFhozyClMZpRqrYljcVsbnPVLfvDelHrzIsfdyeVKwVkrxVITlBisYMpEqIdyCVWzaTxDgbKtMkruuYWYXJINrfJglciqsjUNiKUsSHRUnsTWioIhVVCMlfBBUPrpNkGJpvKawTYOgTDIdqDzBOBmzfJTVabRORrqQcaDZkhkTSAXiEtPWEhVqDRXsvInaGYGKltRhKEVuxy",
         // Password encrypted hash encryption key (passwords are stored like "plaintext => hash => encrypted hash")
-        "password": "random_string_here",
+        "password": "NWqZWBfbfusSAGzhunobEILJsDNcbRRreUxkhCNEaTDZfKjnVoJwBujAhGOTqjWRQDSBBwWrPCnizrCbaATDRWNSjZzrIOuTqXXqBTDXeBwybvLuAnMEoWpdooqEtojlurccGIyqFqeTnnGYqOQJyqHecJfKvIlDvrqJeLsBzYCaTsJnKhnKUpxTaEDFRodeYiFELzSZVBqkPArtVxTKLWVroHbdDSPtGRxaEXlHogLRZFBWMeEkrKXPXrfoQPkthXARkRZQQSzIQvfvtWIlIyhrTwnTCDTInCbzmnnohtAMETHtRLaJKIglOLqAhJHgMRsUCjxNCuiUYiLBTvDJEGUDCvbEzETSaHOkxGgExxJnTPVTZrsDKkbKBMuejTixpHEqumMdTfTIlRTLnHMXmdMrkKGnNsrfXRkJtjHRDlKgzedOreBzIHxaifOEXcCLvpSOyFBbwrqswQRfsbwkBNsAcDnERlHeXvjEtrPAyikIXotkXGkRamOkfrjboIWxVVbuLsUOFgrXCpxNwxEHmeFukhUZRaREQsQYGkpuUjwGMHNoKCFHFLBtdyCNMLiTlNgzcDkRMCceJWZZqacWUntfCuGBGLsPqMgEnjRngVeBcdfbfsrFAfFIVSQEWhJEnxLCKclWUKnlTvoswRcXmmMfIeSuIjkkanZYKEUJHquiOHpPwkSlRwQGSQGHrqXirCMPQRQXkTcfnijpNIclhqqELXPtqakCVBYLgZmbglzvfhnaCBHRQrlQKtawaoInczmsuqFaOoHkybMksOgfZheHtBDiqMLZXkwfjQESuAEQeswBNZeLGZPEOonwbYsiinoBPikcFDIAtevORsprKEnknKpvKuTviiWiLrOrwYmVIbQFecsdiCWBUiHObgaBxXSnYLxUHZBlBaNClfMPliuKpcnGnNYpuwZATswqgVYfDJTYxyYfcSwdsDDXThDzxnWTvwoNcDXwlQgdWxxOSDDMxgYjnneSSYPzNSMJTDuGKhemWaznkkcTqGzGwfeSWSRriAjVIBkyMjQtLEkGWhoVtRbmNzdyoduEiQdmUBbKAYemJSZKAHEyMtrXHpYfjhZXKwIJNjMbqETrhYMXpJrJyIHYKTCSAdaVdEwrlDyWZmzpRgfnbPTnwENjShcWcKSKuoohBtvTDXYaHtwTChBqiqlusDghpzMFboYRTNymDemKupPgACluZMFSgXuUQuNHbyjLColWRNkzoeSTCzMPHAsMTvTfjuRjhZNHQAflzTMskguQvTkQtrLeGwtqOPWQiGWvbGobxtFdEvsPDTHDGotitjtxEeboGkbyWFtbMoUoDzVelXEPeFCRbpIupQMhsxerMmboiIYNpRpKdqMsRcCqyOOCzMHtfQGAgBgRKJeUdlUiurCfyWjsrXtEPOHlUrrWTGdmWEqYFdIQeYNDdoyvVuGBMRRyDfmhLkQgVYMmmNSpJsFQynnljLUTVMLKRSieJpTFMinpUNMucYRZVOuroDmuzBEvbpeIIShAFUvaplRYTulUQFXmBhazyEMXvHJvjScxwTaNuXmelhwqlhkAdAWUHFzfsYpwdXCyKmJytoABxXzweCLnivsnkDXUjnwDIGIROeVORfFBvOKvebuEovAldwhBjVmGTZbUxaWPZVldihxkHOiileQPDTwVGFUetBiYOWDFwARNHMjkOuZVBEatiQieUUxHUHjVatgWHSXIZbdcvWAhQnnMSNMvdhsJnREluqQSYWYYZsmtAlIVdQPUHYjPWIBLLSCkmOfdXdRTeccdsUCdptxwFAKqKASrYmwtReiYKKNsiNdcTGxpikcjLthdSDGyBJlDAtywwOjfOXybMSylvyeZsSsSPMZFtmteJYEtKHJzxDiQPuKFbUxJsmjiHBdekwtvmcoEeNzpxTTWprOZmvbPSCiELnvgVBglLObCiMbmsbqllfMMwhbcLJnNSZYgpkfFJyIxgEHZnovvsnHrmhfuizxijbIyGbpzBRsmBSWZURRNtLidHvlSyKekZnMXabJEAMTaENLOLAjJgwTzVRkF",
         // IP encryption key
-        "ip": "random_string_here",
+        "ip": "UlzvimetcOGCFDchKVOTVkljYKNLAJnNLKSOoJMXidMKlXYkDIAjDtIpyegBywNYLGtGCTwVLGXdLkXQFmbwlnAkpNooJCADOfcJTGXBsseirHsiVYPQSxvbWDdjaOJLwpFNYNgOChaPwNOjzeRAjTiToQMVBYZtqnfuEeCocExmpttRPrnPSqwlujqtOBbmsxIiNtwJOhgzOGtGIHcWwhymvtnmmTlxeBMVmJewdQZdIpHlEzRZpoOLwRHOuJCwWzHKcGtRbrUtWKXSKcFXDkcxiDoSoaITVqzdPmujnFvuJPEzfgzfIrdIsvXrHhKjkDLlSJevBTWqKBcmQCHLephLnclHPBjMLoeovWcUiFKdEXuEwpHOevrlmYuGeTyMhERCCOlGUmewKgYMpFBgRdDtUPQYsVdUuiZHiyRTKhrDRJdvXrIkYnAAsTZtMTpYweqCEZEEcEtorrGYwbEwlmfyZLHUXiLzteGGDauFWtlbUsPaFQvKfqNECRQurjspyBVzDILiWmQNgEtGkXRFvpwGRvwYyKxFnLYuvgEKFAcoANrBTruBdyNUYdEBzRgVBKDGwlxdZvxXTGVEzhooBRNoNBxFuLEeKGKzsBqFdAHvFxfFJdXDwSivwVHoZfWDoNhUrUWfVBWAXHBFLBKORHVMGsbWxcXMfIdsCSFeLaFEuGkvXkKDmBisADhoCtpQylluPpskaNZiKrKpNDKESwhwzocieBdnjiDyOnMGGCzaAJVCReBllOZNoiNhkTcvTNVPVrfXjduqRiFzjDvHeYBlqjmwCESSuDKVZwWXqMNjwIfjpbeVhleaycgJGIPoNSXYJvdYcyxsaDFKNHDtQSnZLXDBfsUnARvmdZFUspuvhUbbtAPbcPKwEALTzAidhTeFwpeOXkAYHAjSVDyEDwjArVdMZzEfSJspljRNRUtnxfrvbNmhbRFXWKOZXMvKGMVuGnLMjyQkTrMJgFgmzkuFlxeNseOUZZGRzSHzHsMdBgwBrnqTmlslUEBjvUooiKONEdksOZVMGUsOlHmMbDrbLgRgdUYQMTFqsOyHzFETRndnGpFPIjLUUTCtJVocWFgdslSLmDhISMXVJMyiGzUVwuobmLszuecJryjpulvucfIdoDhOveUrxlGiOXTNvOcXxEfqqmvPNNVExqXezMNuZKFcGHNNFxrwnzRXyzumjcTpEmbTZDcQAyaikbaVeYUznaEqTNzuUfgFfXDLUjuDQaiCZUhSggWotyzzIVVNUhWBeVFtPvtemiFHQfpiLcKUPcDijkMPmyDXMihgklvMGtHuVfpSshKNROdGZhuZKASAOQZkIyIAeThbfDRxCmQtTSDivVckuWaGPElgwAygmbRSkaAvRTxniyyBrNpCMxJRvmsefmyPWcwyEqCpKBbylEOMxIgiSlolOfaTLZcJpjKPWJEoikeTpUAVBlgZgNeqxqWhErDlaLjrxObMIHmsrhfUzuvwvsgTpioeOdrKHwStEFOzeHClsNzTArBFptUcjqYwlubPJqupugeNOWRNiQzBiGQSmIAGUcOLcofGwLZzxkdinppaICmlThkVOUvIJVPljdGHlkGClejeWEaRrEejazlkMHXJYDAGGEpOXpDoQxUJkDSTQWkFqiDiDiLWJkdhjdpDIAEXjvzMGBRvNamwEqHZpttfJunYCboKGjalNrClYAHpWcQgoxolatIJdpoCxxkxEPaPxGXjBjPNZuyCOjrThXvJvmgHmlBklyPuNyjfHlNSSqGwkGuwxzVsNVXFslQYYODUoVtRAWLQuEtofTeeybpLcFvYoseRAfrPsgeBBCQrUTGBzvkUMrMSYaUMeAlGszCAWaCaTDxffjhzJOMnxTItJDnJKlwcHYKUzAlVlfDBCyTILOztQqINhtbBvBBZEViZPFXnncHgZmwsbEcCAsTEePJrlewjKTRGnaQLBgYTbcULmVGQNrsPHnwsrxYarjBoKnNDWjkjvraVyuuyVBxHPIXQJNOMAwSaJoUfHhHHDJmvMFIhCrVTmYdenoTqWJFucADP",
         // Payment information encryption key
-        "payments": "random_string_here",
+        "payments": "SLlSXkMmVmqnMnsEatmJhKKkzaDlRFlpCRGQdJCttHCPOqQoacixcXsKUnFFeqauVGgLSHqCbmuqvYzxuVEHKfwkAmvhpvbtHzQJwEmCRqfzEdnIpCofwtErdgJKFlsaiUXjUQEoqtaXdCCUXtsKfyFBLSSXlBzhpluIrnLLrUQZYGlQXRwyxXypgpICdfWJtehvMvYdzHuxbyQTBIWiODzvBQmcTaJxiWSqjvGKoevoubwaOOwvsSlsOivQcNmHTbGxjZFKoiQlKkWswgamDUxZGqjtqGbOPXTQHBOxQYisyAWJQZWGrPrzXPwnBtjSrUzZcgrTMAEwFSMtBzwFOQqMfbmPSjZYnkzXIPPDkqJApWdzdvjwuirSKbsbAdAvDAFcSdnyqctLQWmBAtVLsEvdEqRsllnVVASUXxLBMCLNUoUzHzCQBPqxqaTcduZhrWnCRhpMksEEiFIvQlSMcQESYVQwopsgtezGWYbTUPyMlJwagFddVwTqsHWhrVTjMQgdbEtfvYzMGzwWHvoYWBtaKSBgTmKzXDfNVOCKugMyYwndNnWoXZIIgIqVVGTeUlhbHMhbugdCVPFwTjeXXMhYNRkrvaFDjPoytomkorcTduwKSshkfAJgvevPLtlaepNCuCDbsovbWmyFGJEbFCJNMATNdrwBLXHFIMnSndankpXEVQLxvJgQcGclYSfgjhQJvvdKPkxAzzNbFwFcPmIigQnwwpsYIjZIeLULSPOdOdBJNcOBODpsKNkqDYLEEFGwetogURZanBZsowJxKfwhRtfXBFdXZobZIMhgCWkOBiTKdIDQzYHYcMxNPZxhuRUamDLxEdzaIaXoCguBjcRmWNfqFDwJfhbDsddodnVHptlaRaRjfQodreCUNfTaKFAnQAHyeGrnmvUqIEhXMhgQyuwRjVDyMSdTDFfYmbdfwtEtjRyJoYIVGyOylwsTVGkWTpHYxuzdsPvRevoXoEGUlsmwoMIQQneXTOiQsuEIFoYQZpVZOGQqrPOZbzSLlCvsBjQfEwUSubKznSxaYHBLklbuHWiBISYTssuAEmPMKWoXiQhCPlkhJvhgAtaKcEKAzSFlUPLzDZEMsxySWucsfjWNgsCxzLFSQMOXaOLjvOwDuoraVExNWAEZaYCbRfZZYozoFZuFDyQTaWHoiXAwZCXeKqlanRPbmwlisLsXBFMIciMhjAKbHrWmXgzgLXdzNxUQtKZGJScoJyiIDroVusCRGSdjUnntAfuXuwCPCTccCxntDpCLnJLXtIZdlQRRFTYnrPRIBPaviZxPxYqDknTQvsYpyqiLlJdwdNEWrxfTrWInYGjowwBPyIoTRaveejJVAAPbONlLuWjRJsIoofFTyiPaHhzmVNxYEQtTXjrHRyRZwZmBUrAifJVzXteZYlaLxkFmGczNAoaMpuFChLyfvMHlEGxfQkzTgPKGQSwKpNjrFpPDdypzeWnjNdipZkZmnBvGdWllqrjVOxpvXpLluEdoYzvbIJPtjGmNVDAAcXgcpkHryaISCJWZGAEgHCLbQvYampcGcaJnlBQYvsvvqhdKIfOllpsBvXdeBbxOwicxwiJOTeSRxnOeLmNjsLFDbjrMoPVVjnuwaEOUAydBvHwthkdvNsBIxVJbghGtnyjUHJKoaGltKWPjZcYVCSmpqDlCMEARjPiyzdJoFLpCwNemPQrvkDEVHsyChelPHyZgRstjrEGLTfYdAHviYJASnDnwmieeXAYGZeiKWkZGIuopYmxcdhboGrAfTpsnvyVgxYhyNFZZxukUTwBaMTrbxPgPPpDQXwkfIuDrKTYpKwrGyESkkXdqBKPIUCdGMdawinHNXfCqkqxtiwmxTKmnhvUhrPDrBlaeaSbnpksvgKKOWfhYoTxytoffrvutQmxbtsyePXYhfgEFJKXDgBIFEEVUiAXjDqzuaDNwezDiFsIDeBvWJUWgtuydLZrVUGevWvtTxZrQwMDqqFpIYHidWcwznPlpigDlTNdyCWjbNDDZwGLLJXHVEDOGxyLberGtuOUaaVAQjBPj",
         // Game scripts encryption key
-        "game": "random_string_here"
+        "game": "ALupDsitNtfIFFrdDmGhNEmDYwBfHxRmskOGAEaVczMCNKxiGbITrlgblzLlPcLdyhIzLKsZSejSPpOnZZbBSRMChDKFZBmxjmSFthJEDDfnSxHFglnQMotFlEMUjWjxSWXSpUiDYZPuMmWJwhCXVMYypqEAvuUjLifVtAtUJUHpVJJyqEdfNKsigaSnoyZiWVMUiIcebcUERLWULZmydRYstCPfJttROnTFlrxgsBHOvSALmfbXVWaTDMTRyGSPnUkkgtNlAgVucryBnaTDMCqmbvuAYmsTTLXYbmtufvqPfMzPIpGxPlNLhrFIxgagrHhlQINNQWRKBByyMzbXzyWSAgaTsVNauwOitDlnTnlOnFdyWFCfIvQMlROnGCrDtycUmKNVHdkpzlmAAExFsPKpdQfPgpRbjPkEVEvHLvptTKDofwQscpWNrFmXCgexAdQEkYJhsMJuxDOBitvYDgSJcNkzHNWXgZiAXyGuMSezKabDuXYsWZaFPissbkCXRUIxeogwgDAytRxUWKrTlIDlKlqUuzMudUTKOdQnHFXOylTsnciOwIiMCiLhcqDOJozcjTIeuLvEHIhqgMYJAvkSAgNAaSbppIdGILCMyartnDioNPZSXVJdbbuejogahmFkjuGDIIpJtmtrpdBKwCOqHWrbwEJrrgfmgFQCLCKkLwVdpiDXtcApofIotsGNAZJgUHYNoSooeqtyCoKsPyluWeuMppfKdLdriLhZzCoANCILvEfCMWNaISTPtLWvzNMQTaDCsjvZbEMOyqSIHODohpiQGqGCmDFRYSXUGzJzkhuxBpmCcRoYoGAGzEZAjPjludblTOgSNjmiHyRnscqcqoMGdMOZmAubdDitNmKIKePnzHUntstilZtRdybkXIKvazcARDfTHfIwWIktNgGEfxoCSEsPmSGBHdxiVvzPHvMDDssSXfXNyVlvRvSwkRxKKerEkZcSTIccshXcSUcRfzJwgPYnzTviGIYFTkpmreqxQhiWNyTnfBTCtTpaFqGmQvKIiaRgertujWZUrEtBKdCgQbYWWasVkqoQMDhgwjWdpixEAXVNANMVOjpnWJlgProrTDBamVuYvkErZLYZXCgQPYlhniJpZyoTJMQBAzYXhwLkGBeKQLmPXnYrxfWmnpendNZBQubNDwSkhVVoTKHDTfIgNxhixowswchZxXhBwQADuzVjNXAfLKeODhxKevRXxyGmPIJqiXioxGirIQnbtcvnAtHaeEoOcsdsswcIEEQOyECrQQhhDZWFYvIxyjegyKfIWJMlBvpVzILPkNanBaGJHGDsWiXYCTpOFVIdckapbqbdoDSrRWnXiWvRqZGfKdujkrcSAyINaECJZgJfFajrgePzmeVGBtfFebIAcKAbzwzuGMuGXoHWoqziXGNHwRnkDJiWRPoTyGkNdhrijvLflvAHMLefpGTDZmAZWIrLUFKifdxfvVYwZxCjWEQengjCdpsgdrPCLUPKGiUxlRHZfwKckTlZiRYFJQfdZTlwUSKUJqVRIMCrPCZbdqfgCRhzMKpGcReBxUJodOawKTeUNZpkHDcQzqraeOCfrQCBmwMukjilMHarBzcGkyRdwOkSUGnKJsBUMupYoXSghByVhMqcveHSStfihQSJOGDebjwhvLpkZwPDbuGxVFOYoUmmkNMxRGKldTnAOJrWXALrcXBHHDDUjXDSXVGtPtPPlVHaUtEMeUmIzTUMxNhplBmrEgrsfmgPGOrkGyoxxAaQXiUlRzfKmgajuHGJHXNkvLkNKDPzCADgXlYopoazgntFXKXwTWARCNdGqZaQFxkSAGDogYJPLXjsEjNARxAYSxPbmKQvpXDxgjAajblIXCFQUqRlkfaivjlBFodCGufShmRyGlrJNjrFPYteipTfbypvNDhTuCwyoZjaXgjohHRlHMjTnTOfYptePGRqeMFslixnOeDBUWbLTPIrQVNDziqUWVlTCxderQOyFrBHWnwirfcBoUhKIPwcEgsubNTPsZlGHPlEaKZwogXwywzHajzeTyjzzgMC"
     },
     // PayPal configuration information
     "paypal": {
         // Is this a sandbox environment?
-        "sandbox": true,
+        "sandbox": false,
         // Paypal Rest Email
-        "email": "hello@business.example.com",
+        "email": "hello@ubexs.com",
         // Paypal Reset Client Key
         "clientid": "client_key",
         // Paypal Secret
@@ -133,7 +133,7 @@
         // This must be a production url due to how coinpayments works.
         // Replace "example.com" with your API backend domain
         // If this is just a development server, you should leave it empty
-        "ipn": "https://example.com/api/v1/billing/currency/ipn",
+        "ipn": "",
         // Coinpayments IPN Secreet
         "ipnSecret": "secret_key"
     },
@@ -148,17 +148,10 @@
         // Image proxy URL generator secret
         "imageProxy": "image_proxy"
     },
-    // Mailjet Configuration
-    "mailJet": {
-        // Mailjet Public Key
-        "public": "public_key",
-        // Mailjet private key
-        "private": "private_key"
-    },
     // IP Quality Score Setup
     "ipQualityScore": {
         // API Key
-        "apiKey": "api_key"
+        "apiKey": "bsvMkJEtoRDGNYp4KCFJ6ci5Ym5ZeA5T"
     },
     // Is debug enabled?
     "debug": false
