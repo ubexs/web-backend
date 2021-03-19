@@ -148,6 +148,13 @@
         // Image proxy URL generator secret
         "imageProxy": "image_proxy"
     },
+        // Mailjet Configuration
+    "mailJet": {
+        // Mailjet Public Key
+        "public": "public_key",
+        // Mailjet private key
+        "private": "private_key"
+    },
     // IP Quality Score Setup
     "ipQualityScore": {
         // API Key
