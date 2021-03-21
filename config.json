@@ -12,16 +12,16 @@
     "baseUrl": {
         // Backend (aka this services') BASE url
         // For example: https://api.ubexs.com
-        "backend": "http://api.10allday.com:3000",
+        "backend": "http://api.ubexs.com:3000",
         // Frontend (blockshub/web-frontend) API Proxy Base Url
         // For example: https://api.ubexs.com in production, or localhost:3000 in development
-        "frontend": "http://api.10allday.com:3000",
+        "frontend": "http://api.ubexs.com:3000",
         // Game Client (blockshub/game-client) BASE url
         // For example: https://play.ubexs.com
-        "play": "http://play.10allday.com:3006",
+        "play": "http://play.ubexs.com:3006",
         // WWW Base Url
         // For example: https://www.ubexs.com
-        "www": "http://www.10allday.com:3005"
+        "www": "http://www.ubexs.com:3005"
     },
     // If MySQL TLS is enabled
     "mysqlTLS": {
@@ -82,7 +82,7 @@
         // Is secure flag sent? (aka is the domain https)
         "secure": true,
         // Domain to use
-        "domain": ".10allday.com"
+        "domain": ".ubexs.com"
     },
     // Recaptcha V2 private key (legacy)
     // Should be equal to recaptchg.v2.public
