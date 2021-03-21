@@ -10,13 +10,6 @@
 # implied. See the License for the specific language governing permissions and limitations under the
 # License.
 
-FROM nginx
-
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-WORKDIR /usr/share/nginx/html
-COPY site .
-
 ARG GITHUB_SHA
 ARG GITHUB_REF
 ENV SHA=$GITHUB_SHA
