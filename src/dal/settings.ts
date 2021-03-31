@@ -31,8 +31,8 @@ class SettingsDAL extends _init {
             "Messages": [
                 {
                     "From": {
-                        "Email": "support@blockshub.net",
-                        "Name": "BlocksHub"
+                        "Email": "support@ubexs.com",
+                        "Name": "ubexs"
                     },
                     "To": [
                         {
