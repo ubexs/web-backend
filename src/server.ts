@@ -115,9 +115,9 @@ export class Server extends ServerLoader {
             "https://ubexs.com",
             // dev
             "http://localhost",
-            "http://www.ubexs.local",
-            "http://play.ubexs.local",
-            "http://api.ubexs.com",
+            "http://www-devsite.ubexs.com",
+            "http://play-devsite.ubexs.com",
+            "http://api-devsite.ubexs.com",
         ]
         this.expressApp.use((req, res, next) => {
             let origin = req.header('origin');
