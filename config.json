@@ -21,7 +21,14 @@
         "play": "http://play.ubexs.com:3006",
         // WWW Base Url
         // For example: https://www.ubexs.com
-        "www": "http://www.ubexs.com:3005"
+        "www": "http://www.ubexs.com:3005",
+        //Load website stuff
+        "cdn": "http://cdn.ubexs.com",
+        "storage": "https://storage.googleapis.com",
+        "analytics": "https://www.google-analytics.com",
+        "fonts": "https://ka-f.fontawesome.com/releases/v5.15.1/css/free.min.css",
+        "monitoring": "https://sentry.io"
+        
     },
     // If MySQL TLS is enabled
     "mysqlTLS": {
