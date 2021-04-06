@@ -198,10 +198,10 @@ export default class AuthController extends controller {
             // insert code
             await this.user.insertPasswordReset(userInfo.userId, stringToken);
             // create url
-            let url = `https://blockshub.net/reset/password?userId=${userInfo.userId}&code=` + encodeURIComponent(stringToken);
+            let url = `https://ubexs.com/reset/password?userId=${userInfo.userId}&code=` + encodeURIComponent(stringToken);
             // send email
             await this.settings.sendEmail(email, `Password Reset Request`,
-                `Hello ${userInfo.username}\nYou (or someone else) requested your account's password on BlocksHub to be reset. Please copy and paste the link below into your browser to reset your password.\n\n${url}\n`, `Hello ${userInfo.username}<br>You (or someone else) requested your account's password on BlocksHub to be reset. Please click the link below to reset your password.<br><a href="${url}">${url}</a><br>Alternatively, you can copy and paste this URL into your browser<br>${url}<br>`);
+                `Hello ${userInfo.username}\nYou (or someone else) requested your account's password on ubexs to be reset. Please copy and paste the link below into your browser to reset your password.\n\n${url}\n`, `Hello ${userInfo.username}<br>You (or someone else) requested your account's password on BlocksHub to be reset. Please click the link below to reset your password.<br><a href="${url}">${url}</a><br>Alternatively, you can copy and paste this URL into your browser<br>${url}<br>`);
         } catch (e) {
             console.error(e);
         }
@@ -613,7 +613,7 @@ export default class AuthController extends controller {
                 "TorsoRGB": [255, 255, 255],
             });
             // Add Thumbnail
-            await trx.user.addUserThumbnail(userId, "https://cdn.blockshub.net/thumbnails/b9db56f8457b5e64dae256e5a029541dd2820bb641d280dec9669bbab760fa1077a7106cbff4c445d950f60f6297fba5.png");
+            await trx.user.addUserThumbnail(userId, "https://cdn.ubexs.com/thumbnails/b9db56f8457b5e64dae256e5a029541dd2820bb641d280dec9669bbab760fa1077a7106cbff4c445d950f60f6297fba5.png");
             // Give First-Time Transaction
             await trx.economy.addToUserBalanceV2(userId, 10, model.economy.currencyType.secondary);
             await trx.economy.createTransaction(userId, 1, 10, model.economy.currencyType.secondary, model.economy.transactionType.DailyStipendSecondary, "Daily Stipend", model.catalog.creatorType.User, model.catalog.creatorType.User);
@@ -841,13 +841,13 @@ export default class AuthController extends controller {
         if (!returnUrl.slice('https://'.length).match(/\./g)) {
             throw new this.BadRequest('InvalidReturnUrl');
         }
-        // Make sure URL is not blockshub.net
-        // www.blockshub.net
-        if (returnUrl.slice(0, 'https://www.blockshub.net'.length) === 'https://www.blockshub.net') {
+        // Make sure URL is not ubexs.com
+        // www.ubexs.com
+        if (returnUrl.slice(0, 'https://www.ubexs.com'.length) === 'https://www.ubexs.com') {
             throw new this.Conflict('AuthenticationServiceBlacklisted');
         }
         // blockshub.net
-        if (returnUrl.slice(0, 'https://blockshub.net'.length) === 'https://blockshub.net') {
+        if (returnUrl.slice(0, 'https://ubexs.com'.length) === 'https://ubexs.com') {
             throw new this.Conflict('AuthenticationServiceBlacklisted');
         }
         // Ok, so now we can generate the JWT
