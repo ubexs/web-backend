@@ -169,13 +169,13 @@ export class UsersController extends controller {
     ) {
         // Filter User ID
         if (!numericId) {
-            return { url: "https://cdn.blockshub.net/thumbnails/d8f9737603db2d077e9c6f2d5bd3eec1db8ff9fc8ef64784a5e4e6580c4519ba.png", success: false };
+            return { url: "https://cdn.ubexs.com/thumbnails/d8f9737603db2d077e9c6f2d5bd3eec1db8ff9fc8ef64784a5e4e6580c4519ba.png", success: false };
         }
         const thumbnail = await this.user.getThumbnailByUserId(numericId);
         if (thumbnail && thumbnail.url) {
             return { url: thumbnail.url, success: true };
         } else {
-            return { url: "https://cdn.blockshub.net/thumbnails/d8f9737603db2d077e9c6f2d5bd3eec1db8ff9fc8ef64784a5e4e6580c4519ba.png", success: false };
+            return { url: "https://cdn.ubexs.com/thumbnails/d8f9737603db2d077e9c6f2d5bd3eec1db8ff9fc8ef64784a5e4e6580c4519ba.png", success: false };
         }
     }
 
@@ -190,13 +190,13 @@ export class UsersController extends controller {
     ) {
         // Filter User ID
         if (!numericId) {
-            return res.redirect("https://cdn.blockshub.net/thumbnails/d8f9737603db2d077e9c6f2d5bd3eec1db8ff9fc8ef64784a5e4e6580c4519ba.png");
+            return res.redirect("https://cdn.ubexs.com/thumbnails/d8f9737603db2d077e9c6f2d5bd3eec1db8ff9fc8ef64784a5e4e6580c4519ba.png");
         }
         const thumbnail = await this.user.getThumbnailByUserId(numericId);
         if (thumbnail && thumbnail.url) {
             return res.redirect(thumbnail.url);
         } else {
-            return res.redirect("https://cdn.blockshub.net/thumbnails/d8f9737603db2d077e9c6f2d5bd3eec1db8ff9fc8ef64784a5e4e6580c4519ba.png");
+            return res.redirect("https://cdn.ubexs.com/thumbnails/d8f9737603db2d077e9c6f2d5bd3eec1db8ff9fc8ef64784a5e4e6580c4519ba.png");
         }
     }
 
