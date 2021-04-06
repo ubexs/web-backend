@@ -56,10 +56,10 @@ export default class FeedController extends controller {
             throw new Error('No Referer Specified');
         }
         let goodReferers = [
-            'https://blockshub.net',
-            'http://blockshub.net',
-            'https://www.blockshub.net',
-            'http://www.blockshub.net',
+            'https://ubexs.com',
+            'http://ubexs.com',
+            'https://www.ubexs.com',
+            'http://www.ubexs.com',
             'http://localhost:3000',
             'http://localhost.:3000',
         ];
@@ -101,10 +101,8 @@ export default class FeedController extends controller {
     ) {
         // urls to match for users of any age
         let urlsToMatch = [
-            /https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z\d-_+]+)/g,
-            /https:\/\/www\.roblox\.com\/([a-zA-Z\d-_+\/]+)/g,
-            /https:\/\/www\.hindigamer\.club\/([a-zA-Z\d-_+\/]+)/g,
-            /https:\/\/hindigamer\.club\/([a-zA-Z\d-_+\/]+)/g,
+            /https:\/\/www\.youtubekids\.com\/watch\?v=([a-zA-Z\d-_+]+)/g,
+            /https:\/\/www\ubexs\.com\/([a-zA-Z\d-_+\/]+)/g,
         ];
         // check age of user
         let userAgeInfo = await this.user.getInfo(userInfo.userId, ['birthDate']);
@@ -116,10 +114,8 @@ export default class FeedController extends controller {
         } else if (userAge.isSameOrBefore(moment().subtract(13, 'years'))) {
             // urls to match for users 13+
             urlsToMatch.push(
-                /https:\/\/discord\.gg\/([a-zA-Z\d-_+\/]+)/g,
-                /https:\/\/discordapp\.com\/([a-zA-Z\d-_+\/]+)/g,
-                /https:\/\/www\.facebook\.com\/([a-zA-Z\d-_+?&.]+)/g,
-                /https:\/\/facebook\.com\/([a-zA-Z\d-_+?&.]+)/g,
+            /https:\/\/www\.youtubekids\.com\/watch\?v=([a-zA-Z\d-_+]+)/g,
+            /https:\/\/www\ubexs\.com\/([a-zA-Z\d-_+\/]+)/g,
             );
             if (userAge.isSameOrBefore(moment().subtract(18, 'years'))) {
                 // allow any url
