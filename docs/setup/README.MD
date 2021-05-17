@@ -1,4 +1,4 @@
-# ubexs First Time Setup
+# Ubexs First Time Setup
 
 First, make sure you have the following (required) software installed:
 - **NodeJS** (Preferably latest LTS version - currently 14.x)
@@ -8,7 +8,7 @@ First, make sure you have the following (required) software installed:
 - **Text Editor/IDE** (Preferably VSCode)
 
 There are also some third-party services you will need:
-- **3 Aws S3 (or S3 Compatible) Buckets**. Vultr is a good option, as they only charge $5/Month for unlimited buckets, so using different buckets for development and production is cheap.
+- **3 Aws S3 (or S3 Compatible) Buckets**.
 - **Google Recaptcha V2 and V3 API Keys**. Go [here](https://www.google.com/recaptcha/about/) and click on "Admin Console" to create then.
 
 There are also some optional third-party services you can setup:
@@ -21,15 +21,15 @@ There are also some optional third-party services you can setup:
 Remember that Google and Stackoverflow are your friends. If you get any errors, try Googling them: chances are, you aren't alone, and it may even be common. Only open issues or contact maintainers when you know the issue is with ubexs itself, and not your environment.
 
 ## 1) Pulling the Repo
-Create a new folder where you want the project to be stored. It is likely you will be pulling multiple ubexs repositories, so creating a folder called "ubexs", and then creating another folder inside that called "web-backend" might be a good idea.
+Create a new folder where you want the project to be stored. It is likely you will be pulling multiple ubexs repositories, so creating a folder called "ubexs", and then creating another folder inside that called "backend" might be a good idea.
 
-If you use VSCode, you should open the "web-backend" folder in it
+If you use VSCode, you should open the "backend" folder in it
 
-Open up a terminal (preferably in your IDE/Editor) and enter the web-backend directory (if you aren't already in it). Enter the following command into your terminal
+Open up a terminal (preferably in your IDE/Editor) and enter the backend directory (if you aren't already in it). Enter the following command into your terminal
 ```
-git clone git@github.com:ubexs/web-backend.git .
+git clone git@github.com:ubexs/backend.git .
 ```
-This will install `ubexs/web-backend` into your `web-backend` folder.
+This will install `ubexs/backend` into your `backend` folder.
 
 ## 2) Installing Dependencies
 Enter the following command into your terminal:
