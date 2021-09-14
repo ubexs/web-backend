@@ -8,7 +8,7 @@
 # if only viewing service one logs:
 # sudo journalctl -u ubexs-one.service -f
 [Unit]
-Description=ubexs Web/API Daemon 1
+Description=Ubx Web/API Daemon 1
 # After=mysql.service redis.service
 
 [Service]
